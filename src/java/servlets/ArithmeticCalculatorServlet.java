@@ -60,7 +60,6 @@ public class ArithmeticCalculatorServlet extends HttpServlet {
         
         request.setAttribute("result", answer);
         
-        
         getServletContext().getRequestDispatcher("/WEB-INF/arithmeticCalculator.jsp")
                 .forward(request, response);
     }
